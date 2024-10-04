@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.chat-container {
+    width: 60%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.message-box {
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+.user-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Colores de los inputs según el usuario */
+.user1-input {
+    border: 2px solid #007BFF; /* Azul */
+    background-color: #d0e7ff;
+    color: #0056b3;
+}
+
+.user2-input {
+    border: 2px solid #FF5C5C; /* Rojo */
+    background-color: #ffe6e6;
+    color: #b30000;
+}
+
+/* Efectos al hacer focus */
+.user1-input:focus {
+    outline: none;
+    border-color: #0056b3;
+}
+
+.user2-input:focus {
+    outline: none;
+    border-color: #b30000;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    max-width: 60%;
+    word-wrap: break-word;
+}
+
+.user1-message {
+    background-color: #d0e7ff;
+    color: #0056b3;
+    align-self: flex-start;
+}
+
+.user2-message {
+    background-color: #ffe6e6;
+    color: #b30000;
+    align-self: flex-end;
+}
