@@ -37,20 +37,19 @@ input[type="text"] {
     border-radius: 5px;
 }
 
-/* Colores de los inputs según el usuario */
+
 .user1-input {
-    border: 2px solid #007BFF; /* Azul */
+    border: 2px solid #007BFF; 
     background-color: #d0e7ff;
     color: #0056b3;
 }
 
 .user2-input {
-    border: 2px solid #ff0000; /* Rojo */
+    border: 2px solid #ff0000; 
     background-color: #ffe6e6;
     color: #b30000;
 }
 
-/* Efectos al hacer focus */
 .user1-input:focus {
     outline: none;
     border-color: #0056b3;

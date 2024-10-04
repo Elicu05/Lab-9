@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (message) {
             addMessage(message, 'user1-message');
-            user1Input.value = '';  // Limpiar input
+            user1Input.value = '';  
         }
     });
 
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (message) {
             addMessage(message, 'user2-message');
-            user2Input.value = '';  // Limpiar input
+            user2Input.value = ''; 
         }
     });
 
@@ -31,6 +31,5 @@ document.addEventListener("DOMContentLoaded", function () {
         newMessage.textContent = message;
 
         messageBox.appendChild(newMessage);
-        messageBox.scrollTop = messageBox.scrollHeight;  // Scroll automático al final
-    }
+        messageBox.scrollTop = messageBox.scrollHeight;  
 });
