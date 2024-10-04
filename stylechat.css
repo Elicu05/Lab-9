@@ -11,14 +11,15 @@ body {
 .chat-container {
     width: 60%;
     margin: 20px auto;
-    border: 1px solid #ccc;
+    border: 2px solid #ff82c1;;
     padding: 10px;
     border-radius: 5px;
 }
 
 .message-box {
     height: 300px;
-    border: 1px solid #ccc;
+    border: 1px solid #ff409f ;
+    background-color: #ffbacb;
     padding: 10px;
     overflow-y: auto;
     margin-bottom: 10px;
@@ -44,7 +45,7 @@ input[type="text"] {
 }
 
 .user2-input {
-    border: 2px solid #FF5C5C; /* Rojo */
+    border: 2px solid #ff0000; /* Rojo */
     background-color: #ffe6e6;
     color: #b30000;
 }
@@ -62,10 +63,10 @@ input[type="text"] {
 
 button {
     padding: 10px 20px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 5px;
+    background-color: #ffebf5;
+    color: gray;
+    border: 2px solid #ff409f;;
+    border-radius: 2px ;
     cursor: pointer;
 }
 
